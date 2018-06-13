@@ -98,44 +98,44 @@ public class Base {
 
     }
 
-    public static String readFromExcel(String fileRef, String sheetRef, String cellRef) throws IOException {
-        FileInputStream fis = new FileInputStream(fileRef);
-        Workbook wb = new XSSFWorkbook(fis);
-        Sheet sheet = wb.getSheet(sheetRef);
-        DataFormatter formatter = new DataFormatter();
-        CellReference cellReference = new CellReference(cellRef);
-        Row row = sheet.getRow(cellReference.getRow());
-        Cell cell = row.getCell(cellReference.getCol());
-        String value = "";
-        if (cell != null) {
-            value = formatter.formatCellValue(cell);//cell.getStringCellValue();
-        }
-        return value;
-    }
-
-    public String getTitle() throws InterruptedException {
-        Thread.sleep(5000);
-        return driver.getTitle();
-
-    }
-
-    public void takeTheScreenshot(String testCaseName) throws Exception {
-        System.out.println(name);
-
-        System.out.println("------------------------------");
-        Thread.sleep(3000);
-        String screenShotLocation = "/Users/malam2/Desktop/WEB2/Application/src/test/testResult/Screenshot/";
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date date = new Date();
-        String currentTime = dateFormat.format(date); //2016/11/16 12:08:43
-        System.out.println("---------------------"+currentTime);
-
-        TakesScreenshot scrShot =((TakesScreenshot)driver);
-        File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
-        File DestFile = new File(screenShotLocation + testCaseName + "_" +currentTime + ".png");
-        FileUtils.copyFile(SrcFile, DestFile);
-    }
-
+//    public static String readFromExcel(String fileRef, String sheetRef, String cellRef) throws IOException {
+//        FileInputStream fis = new FileInputStream(fileRef);
+//        Workbook wb = new XSSFWorkbook(fis);
+//        Sheet sheet = wb.getSheet(sheetRef);
+//        DataFormatter formatter = new DataFormatter();
+//        CellReference cellReference = new CellReference(cellRef);
+//        Row row = sheet.getRow(cellReference.getRow());
+//        Cell cell = row.getCell(cellReference.getCol());
+//        String value = "";
+//        if (cell != null) {
+//            value = formatter.formatCellValue(cell);//cell.getStringCellValue();
+//        }
+//        return value;
+//    }
+//
+//    public String getTitle() throws InterruptedException {
+//        Thread.sleep(5000);
+//        return driver.getTitle();
+//
+//    }
+//
+//    public void takeTheScreenshot(String testCaseName) throws Exception {
+//        System.out.println(name);
+//
+//        System.out.println("------------------------------");
+//        Thread.sleep(3000);
+//        String screenShotLocation = "/Users/malam2/Desktop/WEB2/Application/src/test/testResult/Screenshot/";
+//        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        Date date = new Date();
+//        String currentTime = dateFormat.format(date); //2016/11/16 12:08:43
+//        System.out.println("---------------------"+currentTime);
+//
+//        TakesScreenshot scrShot =((TakesScreenshot)driver);
+//        File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
+//        File DestFile = new File(screenShotLocation + testCaseName + "_" +currentTime + ".png");
+//        FileUtils.copyFile(SrcFile, DestFile);
+//    }
+//
 
 
 

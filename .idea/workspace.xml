@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd0e9123-b352-4f59-9a35-5b6f559a1733" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/src/main/resources/TestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/src/test/java/Amazon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/src/test/java/Facebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/src/test/java/Washingtonpost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="bd0e9123-b352-4f59-9a35-5b6f559a1733" name="Default" comment="selenium exam 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/PageObject/HomePageObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/PageObject/Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/test/java/SearchProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/test/java/SearchProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/test/java/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/test/java/SignInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/test/resource/TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/test/resource/TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/classes/FSBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/classes/FSBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/classes/PageObject/BillingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/classes/PageObject/BillingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/classes/PageObject/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/classes/PageObject/CartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/classes/PageObject/CheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/classes/PageObject/CheckoutPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/classes/PageObject/CreditCardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/classes/PageObject/CreditCardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/classes/PageObject/HomePageObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/classes/PageObject/HomePageObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/classes/PageObject/MyAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/classes/PageObject/MyAccountPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/classes/PageObject/OrderDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/classes/PageObject/OrderDetailsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/classes/PageObject/ProductDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/classes/PageObject/ProductDetailsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/test-classes/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/test-classes/HomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/test-classes/PlaceOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/test-classes/PlaceOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/test-classes/SearchProductTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/test-classes/SearchProductTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/target/test-classes/SignInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/target/test-classes/SignInTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Application3/target/" />
     <ignored path="$PROJECT_DIR$/Application/target/" />
@@ -60,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/Application/src/test/java/SearchProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -68,8 +41,8 @@
       <file leaf-file-name="Base.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2142">
-              <caret line="126" column="61" lean-forward="true" selection-start-line="126" selection-start-column="61" selection-end-line="126" selection-end-column="61" />
+            <state relative-caret-position="1649">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,7 +158,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,6 +318,14 @@
       <option name="presentableId" value="Default" />
       <updated>1526741280472</updated>
     </task>
+    <task id="LOCAL-00001" summary="selenium exam 01">
+      <created>1528910992661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528910992661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -381,6 +362,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -412,6 +394,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="selenium exam 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium exam 01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -768,14 +754,14 @@
     <entry file="file://$PROJECT_DIR$/Application/src/test/java/SearchProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" column="61" lean-forward="true" selection-start-line="126" selection-start-column="61" selection-end-line="126" selection-end-column="61" />
+        <state relative-caret-position="1649">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
