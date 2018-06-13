@@ -1,14 +1,21 @@
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.hssf.util.CellReference;
 import org.apache.poi.ss.usermodel.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
@@ -105,6 +112,31 @@ public class Base {
         }
         return value;
     }
+
+    public String getTitle() throws InterruptedException {
+        Thread.sleep(5000);
+        return driver.getTitle();
+
+    }
+
+    public void takeTheScreenshot(String testCaseName) throws Exception {
+        System.out.println(name);
+
+        System.out.println("------------------------------");
+        Thread.sleep(3000);
+        String screenShotLocation = "/Users/malam2/Desktop/WEB2/Application/src/test/testResult/Screenshot/";
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Date date = new Date();
+        String currentTime = dateFormat.format(date); //2016/11/16 12:08:43
+        System.out.println("---------------------"+currentTime);
+
+        TakesScreenshot scrShot =((TakesScreenshot)driver);
+        File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
+        File DestFile = new File(screenShotLocation + testCaseName + "_" +currentTime + ".png");
+        FileUtils.copyFile(SrcFile, DestFile);
+    }
+
+
 
 
 

@@ -13,6 +13,7 @@
         <module>Application</module>
         <module>Application2</module>
         <module>Application3</module>
+        <module>Amazon</module>
     </modules>
 
 
